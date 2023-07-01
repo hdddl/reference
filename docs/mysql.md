@@ -115,6 +115,31 @@ mysqldump -u user -p db_name --no-data=true --add-drop-table=false > db.sql
 mysql -u user -p db_name < db.sql
 ```
 
+### 用户管理
+
+创建用户
+
+```sql
+-- 如果你希望允许用户从任意主机访问，可以将'localhost'替换为'%'。
+CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+```
+
+<!--rehype:className=wrap-text -->
+
+授予数据库权限给用户
+
+```sql
+GRANT ALL PRIVILEGES ON db_name.* TO 'username'@'localhost' IDENTIFIED BY 'password';
+```
+
+<!--rehype:className=wrap-text -->
+
+刷新权限
+
+```sql
+FLUSH PRIVILEGES;
+```
+
 MySQL 示例
 ------
 
