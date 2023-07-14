@@ -56,6 +56,7 @@ mysql -h <host> -u <user> -p [db_name]
 `USE` db`;`              | `切换`到数据库
 `CONNECT` db `;`         | `切换`到数据库
 `DROP DATABASE` db`;`    | `删除`数据库
+`SOURCE <PATH>`          |  执行SQL文件
 
 #### 表 Table
 
