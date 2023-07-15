@@ -16,8 +16,10 @@ Quick Reference
 
 ## 常用
 
-[MySQL](./docs/mysql.md)<!--rehype:style=background: rgb(1 117 143);&class=tag&data-lang=SQL-->  
-[MongoDB](./docs/mongodb.md)<!--rehype:style=background: rgb(0 237 100);-->  
+[MySQL](./docs/mysql.md)<!--rehype:style=background: rgb(1 117 143);&class=tag&data-lang=SQL--> 
+[MongoDB](./docs/mongodb.md)<!--rehype:style=background: rgb(0 237 100);--> 
+[佛学](./docs/buddhism.md)<!--rehype:style=background: rgb(0 237 100);--> 
+[SVN](./docs/svn.md)<!--rehype:style=background: rgb(215 89 62);-->  
 <!--rehype:class=home-card-->
 
 ## 核心网
@@ -63,7 +65,7 @@ Quick Reference
 <!--rehype:class=home-card-->
 
 ## 前端
- 
+
 [CSS 3](./docs/css.md)<!--rehype:style=background: rgb(35 115 205);&class=tag&data-lang=CSS-->  
 [Electron](./docs/electron.md)<!--rehype:style=background: rgb(0 72 153);-->  
 [Emmet](./docs/emmet.md)<!--rehype:style=background: rgb(122 203 23);-->  
@@ -94,8 +96,8 @@ Quick Reference
 [Koa.js](./docs/koajs.md)<!--rehype:style=background: rgb(95 151 206);-->  
 [Lerna](./docs/lerna.md)<!--rehype:style=background: rgb(192 132 252);-->  
 [npm](./docs/npm.md)<!--rehype:style=background: rgb(203 2 0);-->  
-[NestJS](./docs/nestjs.md)<!--rehype:style=background: rgb(237 21 67);>  
-[PM2](./docs/pm2.md)<!--rehype:style=background: rgb(73 117 241);>  
+[NestJS](./docs/nestjs.md)<!--rehype:style=background: rgb(237 21 67);-->  
+[PM2](./docs/pm2.md)<!--rehype:style=background: rgb(73 117 241);-->  
 [package.json](./docs/package.json.md)<!--rehype:style=background: rgb(132 132 132);-->  
 [Yarn](./docs/yarn.md)<!--rehype:style=background: rgb(33 136 182);-->  
 <!--rehype:class=home-card-->
@@ -122,10 +124,11 @@ Quick Reference
 [Curl](./docs/curl.md)<!--rehype:style=background: rgb(16 185 129);-->  
 [Chmod](./docs/chmod.md)<!--rehype:style=background: rgb(16 185 129);-->  
 [Cron](./docs/cron.md)<!--rehype:style=background: rgb(239 68 68);-->  
-[CMake](./docs/cmake.md)<!--rehype:style=background: rgb(92 107 192);>  
-[Make](./docs/make.md)<!--rehype:style=background: rgb(99 99 99);>  
+[CMake](./docs/cmake.md)<!--rehype:style=background: rgb(92 107 192);-->  
+[Make](./docs/make.md)<!--rehype:style=background: rgb(99 99 99);-->  
 [Gdb](./docs/gdb.md)<!--rehype:style=background: rgb(215 89 62);-->  
 [Git](./docs/git.md)<!--rehype:style=background: rgb(215 89 62);-->  
+[SVN](./docs/svn.md)<!--rehype:style=background: rgb(215 89 62);-->  
 [Grep](./docs/grep.md)<!--rehype:style=background: rgb(16 185 129);-->  
 [Find](./docs/find.md)<!--rehype:style=background: rgb(16 185 129);-->  
 [FFmpeg](./docs/ffmpeg.md)<!--rehype:style=background: rgb(0 193 9);>  
