@@ -49,6 +49,25 @@ $ ssh root@192.168.1.5 "tar cvzf - ~/source" > output.tgz
 ```
 <!--rehype:className=wrap-text -->
 
+### 端口转发
+
+本地端口转发
+
+```shell
+ssh -L 本地端口:目标主机:目标端口 用户名@远程服务器
+ssh -L 8080:localhost:80 username@remote_server
+```
+
+将本地的 8080 端口收到的请求全部转发到远程主机的80端口上
+
+远程端口转发
+
+```shell
+ssh -R 8080:localhost:80 public.example.com
+```
+
+远程服务器可以通过 8080 端口链接到本地的80端口
+
 ### SCP
 <!--rehype:wrap-class=row-span-2-->
 

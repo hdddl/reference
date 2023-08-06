@@ -70,3 +70,9 @@ svn revert file
 # 更新到特定版本
 svn update -r 1902
 ```
+
+切换分支
+
+```shell
+svn switch <url>
+```
